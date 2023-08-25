@@ -6,12 +6,13 @@
 header {
     background-color: #aa22aa;
     padding: 10px;
-    height: 40px;
+    height: 70px;
+    z-index: 2;
 }
 h1 {
     float: left;
     color: #dfdfff;
-    font-size: 35px;
+    font-size: 45px;
 }
 #nav {
     float: right;
@@ -26,7 +27,7 @@ h1 {
 }
 #mainContent {
     position: absolute;
-    top: 60px;
+    top: 90px;
     width: 100%;
     text-align: center;
 }
