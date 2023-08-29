@@ -7,23 +7,25 @@ header {
     background-color: #aa22aa;
     padding: 10px;
     height: 70px;
+    width: 100%;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
 }
 h1 {
-    float: left;
     color: #dfdfff;
     font-size: 45px;
 }
 #nav {
-    float: right;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 #nav a {
     display: inline;
     color: #dfdfff;
     font-size: 15px;
     text-decoration: none;
-    padding: 10px
+    padding-right: 20px
 }
 #mainContent {
     position: absolute;
@@ -32,15 +34,15 @@ h1 {
     text-align: center;
 }
 #boxes {
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 .box {
     border: #ff761b solid;
-    float: left;
     width: 200px;
     height: 400px;
     padding: 25px;
-    margin: 0 auto;
     border-radius: 10px;
 }
 .box p {
